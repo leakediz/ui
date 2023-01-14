@@ -1128,7 +1128,7 @@ local themes = {
     },
 
     Spotify = {
-        ["Accent"] = Color3.fromRGB(3161, 196, 140),
+        ["Accent"] = Color3.fromRGB(161, 196, 140),
         ["Window Background"] = Color3.fromRGB(30, 30, 36),
         ["Window Border"] = Color3.fromRGB(45, 45, 49),
         ["Tab Background"] = Color3.fromRGB(25, 20, 20),
@@ -1138,6 +1138,22 @@ local themes = {
         ["Section Border"] = Color3.fromRGB(35, 35, 45),
         ["Text"] = Color3.fromRGB(161, 196, 140),
         ["Disabled Text"] = Color3.fromRGB(161, 196, 140),
+        ["Object Background"] = Color3.fromRGB(25, 25, 29),
+        ["Object Border"] = Color3.fromRGB(25, 20, 20),
+        ["Dropdown Option Background"] = Color3.fromRGB(19, 19, 23)
+    }
+
+    Discord = {
+        ["Accent"] = Color3.fromRGB(180, 210, 228),
+        ["Window Background"] = Color3.fromRGB(30, 30, 36),
+        ["Window Border"] = Color3.fromRGB(45, 45, 49),
+        ["Tab Background"] = Color3.fromRGB(25, 20, 20),
+        ["Tab Border"] = Color3.fromRGB(25, 20, 20),
+        ["Tab Toggle Background"] = Color3.fromRGB(28, 28, 32),
+        ["Section Background"] = Color3.fromRGB(18, 18, 22),
+        ["Section Border"] = Color3.fromRGB(35, 35, 45),
+        ["Text"] = Color3.fromRGB(180, 210, 228),
+        ["Disabled Text"] = Color3.fromRGB(180, 210, 228),
         ["Object Background"] = Color3.fromRGB(25, 25, 29),
         ["Object Border"] = Color3.fromRGB(25, 20, 20),
         ["Dropdown Option Background"] = Color3.fromRGB(19, 19, 23)
@@ -1387,7 +1403,7 @@ function library:SetTheme(theme)
 end
 
 function library:GetThemes()
-    local themes = {"Default", "Midnight", "Spotify"}
+    local themes = {"Default", "Midnight", "Spotify", "Discord"}
 
     local folderpath = string.format("%s//themes", self.folder)
 
