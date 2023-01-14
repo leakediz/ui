@@ -1129,9 +1129,9 @@ local themes = {
 
     Spotify = {
         ["Accent"] = Color3.fromRGB(161, 196, 140),
-        ["Window Background"] = Color3.fromRGB(161, 165, 162),
+        ["Window Background"] = Color3.fromRGB(65, 65, 65),
         ["Window Border"] = Color3.fromRGB(161, 165, 162),
-        ["Tab Background"] = Color3.fromRGB(27, 42, 53),
+        ["Tab Background"] = Color3.fromRGB(28, 28, 28),
         ["Tab Border"] = Color3.fromRGB(25, 20, 20),
         ["Tab Toggle Background"] = Color3.fromRGB(161, 196, 140),
         ["Section Background"] = Color3.fromRGB(18, 18, 22),
@@ -1145,9 +1145,9 @@ local themes = {
 
     Discord = {
         ["Accent"] = Color3.fromRGB(180, 210, 228),
-        ["Window Background"] = Color3.fromRGB(161, 165, 162),
+        ["Window Background"] = Color3.fromRGB(65, 65, 65),
         ["Window Border"] = Color3.fromRGB(161, 165, 162),
-        ["Tab Background"] = Color3.fromRGB(27, 42, 53),
+        ["Tab Background"] = Color3.fromRGB(28, 28, 28),
         ["Tab Border"] = Color3.fromRGB(25, 20, 20),
         ["Tab Toggle Background"] = Color3.fromRGB(180, 210, 228),
         ["Section Background"] = Color3.fromRGB(18, 18, 22),
@@ -1161,9 +1161,9 @@ local themes = {
 
     VisualStudio = {
         ["Accent"] = Color3.fromRGB(193, 202, 222),
-        ["Window Background"] = Color3.fromRGB(87, 88, 87),
+        ["Window Background"] = Color3.fromRGB(65, 65, 65),
         ["Window Border"] = Color3.fromRGB(87, 88, 87),
-        ["Tab Background"] = Color3.fromRGB(27, 42, 53),
+        ["Tab Background"] = Color3.fromRGB(28, 28, 28),
         ["Tab Border"] = Color3.fromRGB(25, 20, 20),
         ["Tab Toggle Background"] = Color3.fromRGB(193, 202, 222),
         ["Section Background"] = Color3.fromRGB(18, 18, 22),
