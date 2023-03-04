@@ -1177,7 +1177,7 @@ local themes = {
     },
 
     Leaked = {
-        ["Accent"] = Color3.fromRGB(126,72,163),
+        ["Accent"] = Color3.fromRGB(0, 119, 255),
         ["Window Background"] = Color3.fromRGB(62,62,62),
         ["Window Border"] = Color3.fromRGB(50, 50, 50),
         ["Tab Background"] = Color3.fromRGB(28, 28, 28),
@@ -1436,7 +1436,7 @@ function library:SetTheme(theme)
 end
 
 function library:GetThemes()
-    local themes = {"Default", "Midnight", "Spotify", "Discord", "VisualStudio"}
+    local themes = {"Default", "Midnight", "Spotify", "Discord", "VisualStudio", "Leaked"}
 
     local folderpath = string.format("%s//themes", self.folder)
 
