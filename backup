@@ -1,4 +1,5 @@
 --// CUSTOM DRAWING
+--// EDITED FOR CUSTOM THEME!!!
 
 local drawing = {} do
     local services = setmetatable({}, {
@@ -1176,18 +1177,18 @@ local themes = {
     },
 
     Leaked = {
-        ["Accent"] = Color3.fromRGB(146, 57, 120),
-        ["Window Background"] = Color3.fromRGB(65, 65, 65),
-        ["Window Border"] = Color3.fromRGB(87, 88, 87),
+        ["Accent"] = Color3.fromRGB(126,72,163),
+        ["Window Background"] = Color3.fromRGB(62,62,62),
+        ["Window Border"] = Color3.fromRGB(50, 50, 50),
         ["Tab Background"] = Color3.fromRGB(28, 28, 28),
-        ["Tab Border"] = Color3.fromRGB(25, 20, 20),
+        ["Tab Border"] = Color3.fromRGB(0, 0, 0),
         ["Tab Toggle Background"] = Color3.fromRGB(28, 28, 32),
         ["Section Background"] = Color3.fromRGB(18, 18, 22),
         ["Section Border"] = Color3.fromRGB(35, 35, 45),
         ["Text"] = Color3.fromRGB(242, 243, 243),
         ["Disabled Text"] = Color3.fromRGB(205, 84, 75),
         ["Object Background"] = Color3.fromRGB(25, 25, 29),
-        ["Object Border"] = Color3.fromRGB(25, 20, 20),
+        ["Object Border"] = Color3.fromRGB(50, 50, 50),
         ["Dropdown Option Background"] = Color3.fromRGB(19, 19, 23)
     }
 }
